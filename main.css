@@ -1,0 +1,26 @@
+:root {
+    /* Hero and footer */
+    --dark-bg-color: #1F2937;
+    /* Hero main text */
+    --hero-main-text-size: 3rem;
+    --hero-main-text-weight: 800;
+    --hero-main-text-color: #F9FAF8;
+    /* Hero Secondary Text, Header Link Text */
+    --hero-secondary-text-size: 1.125rem;
+    --hero-secondary-text-color: #E5E7EB;
+    /* Header Logo Text */
+    --header-logo-text-size: 1.5rem;
+    --header-logo-text-color: #F9FAF8;
+    /* Btn color */
+    --btn-color: #3882F6;
+    /* information header text */
+    --infor-header-text-size: 2.25rem;
+    --infor-header-text-weight: 800;
+    --infor-header-text-color: #1F2937;
+    /* Quote */
+    --quote-bg-color: #E5E7EB;
+    --quote-text-size: 2.25rem;
+    --quote-text-weight: 400;
+    --quote-text-style: italic;
+    --quote-text-color: #1F2937;
+}

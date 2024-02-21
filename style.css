@@ -1,0 +1,162 @@
+@import url("./main.css");
+
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+a, button{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button {
+    width: fit-content;
+    padding: 0.4rem 1rem;
+    border-radius: 5px;
+    color: #FFF;
+    background-color: var(--btn-color);
+}
+
+/* CSS header, nav links, hero */
+header {
+    padding: 0 4rem;
+    background-color: var(--dark-bg-color);
+}
+
+.container {
+    display: flex;
+    padding: 0 2rem;
+    padding-bottom: 4rem;
+}
+
+.header {
+    padding-top: 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h1 {
+    color: var(--header-logo-text-color);
+    font-size: var(--header-logo-text-size);
+}
+
+.header nav {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.header nav a, .hero .item p{
+    color: var(--hero-secondary-text-color);
+    font-size: var(--hero-secondary-text-size);
+}
+
+.hero {
+    gap: 3rem;
+}
+
+.hero .left {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.hero .item {
+    flex: auto;
+}
+
+.hero .item h3 {
+    font-size: var(--hero-main-text-size);
+    color: var(--hero-main-text-color);
+    font-weight: var(--hero-main-text-weight);
+}
+
+/* CSS Random infoamtion Dishes Section */
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem 10rem 4rem 10rem;
+}
+
+.info h3 {
+    font-size: var(--infor-header-text-size);
+    font-weight: var(--infor-header-text-weight);
+    color: var(--infor-header-text-color);
+    margin-bottom: 2rem;
+}
+
+.preview ul {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+}
+
+.preview ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.preview ul li p {
+    font-size: var(--hero-secondary-text-size);
+    text-align: center;
+}
+
+.preview ul li img {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 10px;
+    border: 3px solid var(--btn-color);
+}
+
+/* CSS Quote Section*/
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem 8rem 4rem 8rem;
+    background-color: var(--quote-bg-color);
+}
+
+.quote p {
+    font-size: var(--quote-text-size);
+    color: var(--quote-text-color);
+    font-weight: var(--quote-text-weight);
+    font-style: var(--quote-text-style);
+    margin-bottom: 0.75rem;
+}
+
+.quote span {
+    float: right;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+/* CSS Footer Section */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+}
+
+footer .container {
+    padding: 3rem;
+    background-color: var(--btn-color);
+    width: 100%;
+    justify-content: space-between;
+    border-radius: 5px;
+    align-items: center;
+    color: var(--hero-main-text-color);
+}
+
+footer button {
+    border: 2px solid #fff;
+}
